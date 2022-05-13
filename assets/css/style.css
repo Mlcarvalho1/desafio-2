@@ -1,0 +1,137 @@
+body{
+    padding-top: 50px;
+    border-radius: 9px;
+}
+ul.pagination{
+    padding-left: 40%;
+}
+.names{
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.profile-pick{
+    resize: both;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.conv-deleted{
+    text-decoration: line-through;
+}
+
+#feet{
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;   
+}
+
+p{
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+form{
+    width: 100%;
+}
+
+table{
+    border: solid;
+    border-radius: 12px;
+}
+tr:hover{
+    background-color: rgb(183, 183, 183);
+}
+
+.container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 8px;
+}
+  
+.container-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+.container-checkbox input:checked ~ .checkmark {
+    background-color: #52a9ef;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.container-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#btn{
+    border-color: black;
+    border: solid;
+    border: black
+}
+
+#btn:hover{
+    background-color: #52a9ef;
+}
+
+
+
+a.page-link.selected{
+    background-color: #52a9ef;
+}
+
+#framework.form-select{
+    width: 150px;
+    height: 50px;
+}
+
+#search-input.form-control{
+    width: 200px;
+    height: 50px;
+}
